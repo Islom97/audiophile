@@ -1,0 +1,5 @@
+netlify:
+bellashuv-1.netlify.app
+
+githup:
+https://github.com/Islom97/audiophile
