@@ -806,8 +806,7 @@ a {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
     text-align: center;
-    width: 360px;
-    margin-left: -15px;
+    width: 327px;
   }
 }
 
@@ -863,7 +862,7 @@ a {
 @media screen and (max-width: 450px) {
   .best-image {
     margin-bottom: 63px;
-    width: 327px;
+    width: 325px;
     height: 300px;
     -o-object-fit: cover;
        object-fit: cover;
