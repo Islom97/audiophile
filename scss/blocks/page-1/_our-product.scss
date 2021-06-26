@@ -1,0 +1,98 @@
+.our-product{
+   margin-bottom: 168px;
+   
+   @media only screen and (max-width: 770px) {
+      margin-bottom: 96px;
+   }
+   
+   .our-product__title{
+      visibility: hidden;
+      position: absolute;
+   }
+   
+   .our-product__list{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      @media only screen and (max-width: 450px) {
+         flex-direction: column;
+      }
+      
+      .our-product__item{
+         position: relative;
+         padding: 116px 0 30px;
+         background: #F1F1F1;
+         border-radius: 8px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: 350px;
+         
+         @media only screen and (max-width: 770px) {
+            width: 223px;
+            padding: 88px 0 22px;
+            margin-right: 10px;
+            
+            &:nth-child(3){
+               margin-right: 0;
+            }
+         }
+         
+         @media only screen and (max-width: 450px) {
+            width: 327px;
+            margin-right: 0;
+            margin-bottom: 76px;
+         }
+         
+         .our-product__img{
+            position: absolute;
+            top: -50%;
+            
+            @media only screen and (max-width: 770px) {
+               width: 103px;
+               height: 110px;
+               top: -50px;
+            }
+            
+         }
+         
+         .our-product__subtitle{
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            letter-spacing: 1.28571px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            text-align: center;
+         }
+         .our-product__link{
+            position: relative;
+            text-align: center;
+            font-weight: $fb;
+            color: #999;
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: .4s ease;
+            
+            &:hover{
+               color: $color_orange;
+            }
+            
+            &::after{
+               content: '';
+               position: absolute;
+               width: 7px;
+               height: 12px;
+               background-image: url(../../../img/line.svg);
+               background-repeat: no-repeat;
+               background-size: cover;
+               top: 3px;
+               left: 48px;
+            }
+         }
+      }
+   }
+}
