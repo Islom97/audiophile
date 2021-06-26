@@ -1,0 +1,234 @@
+.speakers{
+   .speakers__block{
+      .block__first{
+         background-image: url('/img/zx9-bg.png');
+         background-size: cover;
+         height: 560px;
+         width: 100%;
+         margin-bottom: 48px;
+         padding-top: 133px;
+         padding-bottom: 126px;
+         @media screen and (max-width:770px){
+            background-image: url(/img/zx-bgc-tablet.png);
+            background-size: 689px 720px;
+            background-repeat: no-repeat;
+            height: 720px;
+         }
+         @media screen and (max-width:770px){
+            background-image: url(/img/zx-bgc-tablet.png);
+            background-size: cover;
+            background-position: center ;
+            background-repeat: no-repeat;
+            height: 720px;
+         }
+         .first{
+            display: flex;
+            justify-content: space-between;
+            @media screen and (max-width:770px){
+               flex-direction: column;
+            }
+            .first__first{
+               position: relative;
+               .first__image{
+                  margin-top: -66px;
+                  margin-left: 130px;
+                  @media screen and (max-width:770px){
+                     width: 197px;
+                     height: 237px;
+                     margin-left: 230px;
+                     margin-bottom: 64px;
+                  }
+                  @media screen and (max-width:450px){
+                     width: 197px;
+                     height: 237px;
+                     margin-left: 70px;
+                     margin-bottom: 64px;
+                  }
+               }
+            }
+            .first__second{
+               margin-right: 100px;
+               @media screen and (max-width:770px){
+                  text-align: center;
+                  margin: 0;
+               }
+               .second__title{
+                  width: 261px;
+                  color: $color_white;
+                  font-weight: $fb;
+                  font-size: 56px;
+                  line-height: 58px;
+                  letter-spacing: 2px;
+                  text-transform: uppercase;
+                  margin-bottom: 24px;
+                  @media screen and (max-width:770px){
+                     margin: 0 auto;
+                     margin-bottom: 24px;
+                  }
+                  @media screen and (max-width:450px){
+                     font-size: 36px;
+                     line-height: 40px;
+                     width: 250px;
+                  }
+               }
+               .second__text{
+                  width: 349px;
+                  font-size: 15px;
+                  color: #FFFFFF;
+                  opacity: 0.75;
+                  margin-bottom: 40px;
+                  @media screen and (max-width:770px){
+                     margin: 0 auto;
+                     margin-bottom: 40px;
+                  }
+                  @media screen and (max-width:450px){
+                     width: 280px;
+                  }
+               }
+               .second__link{
+                  padding: 15px 30px;
+                  color: $color_white;
+                  background-color: $color_lightblack;
+                  font-weight: $fb;
+                  font-size: 13px;
+                  line-height: 18px;
+                  letter-spacing: 1px;
+                  text-transform: uppercase;
+                  &:hover{
+                     color: $color_white;
+                     background-color:#4C4C4C;
+                  }
+               }
+            }
+         }
+      }
+      .block__second{
+         background-image: url(/img/small-zx-speaker.png);
+         background-size: cover;
+         width: 100%;
+         height: 320px;
+         margin-bottom: 48px;
+         border-radius: 8px;
+         padding-top: 101px;
+         padding-bottom: 101px;
+         padding-left: 95px;
+         @media screen and (max-width:770px){
+            background-image: url(/img/small-zx-tablet.png);
+            background-size: 689px 320px;
+            background-repeat: no-repeat;
+            height: 320px;
+         }
+         @media screen and (max-width:450px){
+            background-image: url(/img/small-zx-tablet.png);
+            background-size: cover;
+            background-position:  center;
+            background-repeat: no-repeat;
+            height: 320px;
+            padding-left: 21px;
+         }
+         .second__title{
+            font-weight: $fb;
+            font-size: 28px;
+            line-height: 38px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 32px;
+            @media screen and (max-width:450px) {
+               
+            }
+         }
+         .second__link{
+            padding: 15px 30px;
+            color: $color_white;
+            background-color: transparent;
+            border: 2px solid $color_black;
+            text-transform: uppercase;
+            color: $color_black;
+            font-weight: $fb;
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: 1px;
+            &:hover{
+               color: $color_white;
+               background-color:$color_black;
+            }
+         }
+      }
+   }
+}
+
+.block__third{
+   margin-bottom: 198px;
+   @media screen and (max-width:450px) {
+      margin-bottom: 120px;
+   }
+   .third__block{
+      display: flex;
+      @media screen and (max-width:450px) {
+         flex-direction: column;
+      }
+      .block__box-first{
+         margin-right: 29px;
+         @media screen and (max-width:770px) {
+            margin-right: 11px;
+         }
+         .box-first__image{
+            border-radius: 8px;
+            @media screen and (max-width:770px) {
+               object-fit: cover;
+               width: 339px;
+               height: 320px;
+            }
+            @media screen and (max-width:450px) {
+               object-fit: cover;
+               width: 327px;
+               height: 200px;
+            }
+         }
+      }
+      .block__box-second{
+         background-color: $color_darkgrey;
+         width: 540px;
+         height: 320px;
+         border-radius: 8px;
+         padding-top: 101px;
+         padding-bottom: 101px;
+         padding-left: 95px;
+         @media screen and (max-width:770px) {
+            width: 339px;
+            height: 320px;
+         }
+         @media screen and (max-width:450px) {
+            padding-top: 41px;
+            padding-bottom: 41px;
+            padding-left: 24px;
+            width: 327px;
+            height: 200px;
+         }
+         .box-second__title{
+            font-weight: $fb;
+            font-size: 28px;
+            line-height: 38px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 32px;
+         }
+         .box-second__link{
+            padding: 15px 30px;
+            color: $color_white;
+            background-color: transparent;
+            border: 2px solid $color_black;
+            text-transform: uppercase;
+            color: $color_black;
+            font-weight: $fb;
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: 1px;
+            &:hover{
+               color: $color_white;
+               background-color:$color_black;
+            }
+         }
+      }
+   }
+}
