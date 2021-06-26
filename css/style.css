@@ -208,8 +208,10 @@ a {
 @media only screen and (max-width: 450px) {
   .product .product__list .product__item:nth-child(1) {
     margin-left: 0;
-    width: 328px;
+    width: 327px;
     margin: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -231,6 +233,7 @@ a {
     height: 600px;
     -o-object-fit: cover;
        object-fit: cover;
+    margin-right: 0;
   }
 }
 
@@ -276,6 +279,7 @@ a {
 
 @media only screen and (max-width: 450px) {
   .product .product__list .product__item .product__title {
+    width: 327px;
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 1.3px;
@@ -292,6 +296,13 @@ a {
 @media only screen and (max-width: 770px) {
   .product .product__list .product__item .product__text {
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .product .product__list .product__item .product__text {
+    text-align: center;
+    width: 327px;
   }
 }
 
@@ -444,6 +455,10 @@ a {
   background-size: cover;
   top: 3px;
   left: 48px;
+}
+
+.speakers {
+  overflow-x: hidden;
 }
 
 .speakers .speakers__block .block__first {
@@ -862,7 +877,7 @@ a {
 @media screen and (max-width: 450px) {
   .best-image {
     margin-bottom: 63px;
-    width: 325px;
+    width: 327px;
     height: 300px;
     -o-object-fit: cover;
        object-fit: cover;
